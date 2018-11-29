@@ -4,8 +4,8 @@
    Tutorial 5
    Case Problem 1
    
-   Author:   
-   Date:     
+   Author:   Micah Fischer
+   Date:     11-28-18
    
    Filename: gp_print.css
 
@@ -16,6 +16,7 @@
 
 /* Page Box Style */
 
+/* Set page size and page margins using @page query. */
 @page {
     size: 8.5in 11in;
     margin: .5in;
@@ -23,12 +24,14 @@
 
 /* Hidden Objects */
 
+/* Hid nav, footer, and article from print layout. */
 nav, footer, article {
     display: none;
 }
 
 /* Comic Book Sheet Styles */
 
+/* Set comic book section with id of sheet to 6in in width. Applied margin to section to center. Used fixed widths to set specific sizes for comic book panels with classes.  */
 section#sheet {
     width: 6in;
     margin: 0 auto;
